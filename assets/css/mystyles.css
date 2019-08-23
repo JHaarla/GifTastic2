@@ -5,5 +5,14 @@
 .gif-div {
     display: inline-block;
     /* float: left; */
-    margin: 1.5%;
+    margin: .5%;
+}
+
+.btnsCont {
+    margin: auto;
+}
+
+.gif {
+    height: 150px;
+    /* width: 100%; */
 }

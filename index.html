@@ -27,7 +27,7 @@
 <div class="container">
     <div class="row">
         <!-- buttons go in this section -->
-        <div class="col-md-8">
+        <div class="col-md-8 btnsCont">
             <div class="card">
                 <div class="card-body" id="buttonsDiv"> 
 
@@ -43,7 +43,7 @@
                             <label for="add"><i class="far fa-smile"></i> Add another emotion:</label>
                             <input type="text" class="form-control" id="addInput" placeholder="How ya feelin'?" inputvalue="noInput"><br />
                             <div class="text-center">
-                                <button class="btn btn-outline-info btn-lg" type="button" id="userInputBtn"><i class="far fa-grin-squint"></i> Add your feels</button>
+                                <button class="btn btn-outline-info btn-lg" type="submit" id="userInputBtn"><i class="far fa-grin-squint"></i> Add your feels</button>
                             </div>
                         </div>
                     </form>
@@ -58,8 +58,14 @@
         <!-- GIFs go in this section -->
         <div class="col-md-12">
             <div class="card">
-                <div class="card-body" id="gifdiv"> 
-                    <h5>Click on the images to animate! Click again to stop. You can add your own feels, too...</h5>
+                <div class="card-body"> 
+                    <div class="beforeGIF">
+                        <h5>Click on the images to animate! Click again to stop. You can add your own feels, too...</h5>
+                        <button class="btn btn-info" type="button" id="moreGIF">Show more GIFs</button><br />
+                    </div>
+                    <div id = "gifdiv">
+
+                    </div>
                 </div>
             </div>
         </div>
